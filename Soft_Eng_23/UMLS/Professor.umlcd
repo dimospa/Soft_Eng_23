@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_YFDG4PJSEe2V373N6MLoLQ">
+  <modelElement href="Soft_Eng_23.uml#_YDckYPJSEe2V373N6MLoLQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_wVhBIPJSEe2V373N6MLoLQ" sourceAnchor="96.0,173.0" targetAnchor="126.0,0.0" target="_wVi2WPJSEe2V373N6MLoLQ" source="_vORsQPJSEe2V373N6MLoLQ">
+    <modelElement href="Soft_Eng_23.uml#_Ytb8kfJSEe2V373N6MLoLQ"/>
+    <nameVisual xmi:id="_wVhoMPJSEe2V373N6MLoLQ" text="">
+      <visualProperties xmi:id="_wW6IQPJSEe2V373N6MLoLQ" position="-17.5,-8.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_wVhoMfJSEe2V373N6MLoLQ" aggregationKind="NONE" name="allProfessor" navigable="true">
+      <modelElement href="Soft_Eng_23.uml#_YaJNIPJSEe2V373N6MLoLQ"/>
+      <visualProperties xmi:id="_wW46IPJSEe2V373N6MLoLQ" position="-77.5,39.636363636363626"/>
+      <visibility xmi:id="_wViPQfJSEe2V373N6MLoLQ" label="~"/>
+      <cardinality xmi:id="_wViPQPJSEe2V373N6MLoLQ" label="1..*" max="-1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_wVhoMvJSEe2V373N6MLoLQ" aggregationKind="NONE" name="">
+      <modelElement href="Soft_Eng_23.uml#_YtcjoPJSEe2V373N6MLoLQ"/>
+      <visualProperties xmi:id="_wW6IQfJSEe2V373N6MLoLQ" position="-16.5,-84.63636363636363"/>
+      <visibility xmi:id="_wViPQ_JSEe2V373N6MLoLQ" label="+"/>
+      <cardinality xmi:id="_wViPQvJSEe2V373N6MLoLQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_wVi2UPJSEe2V373N6MLoLQ" target="_wVi2WPJSEe2V373N6MLoLQ">
+    <modelElement href="Soft_Eng_23.uml#_YtcjofJSEe2V373N6MLoLQ"/>
+    <nameVisual xmi:id="_wVi2UfJSEe2V373N6MLoLQ" text=""/>
+    <sourceRole xmi:id="_wVi2UvJSEe2V373N6MLoLQ" aggregationKind="NONE" name="allSubjects" navigable="true">
+      <modelElement href="Soft_Eng_23.uml#_YaJNIfJSEe2V373N6MLoLQ"/>
+      <visibility xmi:id="_wVi2U_JSEe2V373N6MLoLQ" label="~"/>
+      <cardinality xmi:id="_wVi2VPJSEe2V373N6MLoLQ" label="1..*" max="-1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_wVi2VfJSEe2V373N6MLoLQ" aggregationKind="NONE" name="">
+      <modelElement href="Soft_Eng_23.uml#_YtcjovJSEe2V373N6MLoLQ"/>
+      <visibility xmi:id="_wVi2VvJSEe2V373N6MLoLQ" label="+"/>
+      <cardinality xmi:id="_wVi2V_JSEe2V373N6MLoLQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_wtXgcPJSEe2V373N6MLoLQ" sourceAnchor="0.0,86.0" targetAnchor="156.0,0.0" dashed="true" superClass="_wVi2WPJSEe2V373N6MLoLQ" subClass="_wtZ8wvJSEe2V373N6MLoLQ">
+    <modelElement href="Soft_Eng_23.uml#_YoOscfJSEe2V373N6MLoLQ"/>
+    <bendpoints xmi:id="_-cVK0PJSEe2V373N6MLoLQ" sourceX="-353" targetY="-132"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_wtZ8sPJSEe2V373N6MLoLQ" sourceAnchor="70.0,0.0" targetAnchor="61.0,61.0" target="_xbqw4PJSEe2V373N6MLoLQ" source="_wtZ8wvJSEe2V373N6MLoLQ">
+    <modelElement href="Soft_Eng_23.uml#_YuBLYfJSEe2V373N6MLoLQ"/>
+    <stereotypes xmi:id="_wtZ8sfJSEe2V373N6MLoLQ" name="Reference">
+      <modelElement href="Soft_Eng_23.uml#_YuFc0PJSEe2V373N6MLoLQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_wtZ8svJSEe2V373N6MLoLQ" text="">
+      <visualProperties xmi:id="_xdShgPJSEe2V373N6MLoLQ" position="2.0,-9.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_wtZ8s_JSEe2V373N6MLoLQ" aggregationKind="NONE" name="">
+      <modelElement href="Soft_Eng_23.uml#_YuBLYvJSEe2V373N6MLoLQ"/>
+      <visualProperties xmi:id="_xdR6cPJSEe2V373N6MLoLQ" position="-17.0,-77.0"/>
+      <visibility xmi:id="_wtZ8tPJSEe2V373N6MLoLQ" label="+"/>
+      <cardinality xmi:id="_wtZ8tfJSEe2V373N6MLoLQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_wtZ8tvJSEe2V373N6MLoLQ" aggregationKind="NONE" name="professorRepository" navigable="true">
+      <modelElement href="Soft_Eng_23.uml#_Ys2twPJSEe2V373N6MLoLQ"/>
+      <visualProperties xmi:id="_xdTIkPJSEe2V373N6MLoLQ" position="-122.0,31.0"/>
+      <visibility xmi:id="_wtZ8t_JSEe2V373N6MLoLQ" label="-"/>
+      <cardinality xmi:id="_wtZ8uPJSEe2V373N6MLoLQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_wtZ8ufJSEe2V373N6MLoLQ" source="_wtZ8wvJSEe2V373N6MLoLQ">
+    <modelElement href="Soft_Eng_23.uml#_YuFc0fJSEe2V373N6MLoLQ"/>
+    <stereotypes xmi:id="_wtZ8uvJSEe2V373N6MLoLQ" name="Reference">
+      <modelElement href="Soft_Eng_23.uml#_YuJuQPJSEe2V373N6MLoLQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_wtZ8u_JSEe2V373N6MLoLQ" text=""/>
+    <sourceRole xmi:id="_wtZ8vPJSEe2V373N6MLoLQ" aggregationKind="NONE" name="">
+      <modelElement href="Soft_Eng_23.uml#_YuFc0vJSEe2V373N6MLoLQ"/>
+      <visibility xmi:id="_wtZ8vfJSEe2V373N6MLoLQ" label="+"/>
+      <cardinality xmi:id="_wtZ8vvJSEe2V373N6MLoLQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_wtZ8v_JSEe2V373N6MLoLQ" aggregationKind="NONE" name="subjectRepository" navigable="true">
+      <modelElement href="Soft_Eng_23.uml#_Ys3U0PJSEe2V373N6MLoLQ"/>
+      <visibility xmi:id="_wtZ8wPJSEe2V373N6MLoLQ" label="-"/>
+      <cardinality xmi:id="_wtZ8wfJSEe2V373N6MLoLQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_x7jK0PJSEe2V373N6MLoLQ" sourceAnchor="325.0,204.0" targetAnchor="0.0,58.0" target="_wVi2WPJSEe2V373N6MLoLQ" source="_x7m1MPJSEe2V373N6MLoLQ">
+    <modelElement href="Soft_Eng_23.uml#_YtsbQfJSEe2V373N6MLoLQ"/>
+    <bendpoints xmi:id="_-cVx4PJSEe2V373N6MLoLQ" sourceY="300" targetX="-362"/>
+    <stereotypes xmi:id="_x7lAAPJSEe2V373N6MLoLQ" name="Reference">
+      <modelElement href="Soft_Eng_23.uml#_YtwssPJSEe2V373N6MLoLQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_x7kY8PJSEe2V373N6MLoLQ" text="">
+      <visualProperties xmi:id="_x9cBMPJSEe2V373N6MLoLQ" position="142.61111111111114,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_x7kY8fJSEe2V373N6MLoLQ" aggregationKind="NONE" name="">
+      <modelElement href="Soft_Eng_23.uml#_YtsbQvJSEe2V373N6MLoLQ"/>
+      <visualProperties xmi:id="_x9baIPJSEe2V373N6MLoLQ" position="-16.500000000000007,37.14285714285711"/>
+      <visibility xmi:id="_x7mOIfJSEe2V373N6MLoLQ" label="+"/>
+      <cardinality xmi:id="_x7mOIPJSEe2V373N6MLoLQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_x7kY8vJSEe2V373N6MLoLQ" aggregationKind="NONE" name="professorService" navigable="true">
+      <modelElement href="Soft_Eng_23.uml#_YrusYPJSEe2V373N6MLoLQ"/>
+      <visualProperties xmi:id="_x9coQPJSEe2V373N6MLoLQ" position="-166.625,-47.0"/>
+      <visibility xmi:id="_x7mOI_JSEe2V373N6MLoLQ" label="-"/>
+      <cardinality xmi:id="_x7mOIvJSEe2V373N6MLoLQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_x7jx4PJSEe2V373N6MLoLQ" sourceAnchor="651.0,102.0" targetAnchor="15.0,0.0" target="_wVi2WPJSEe2V373N6MLoLQ" source="_x7m1MPJSEe2V373N6MLoLQ">
+    <modelElement href="Soft_Eng_23.uml#_YtwssfJSEe2V373N6MLoLQ"/>
+    <bendpoints xmi:id="_-cVx4fJSEe2V373N6MLoLQ" sourceX="51" targetY="-344"/>
+    <stereotypes xmi:id="_x7lABPJSEe2V373N6MLoLQ" name="Reference">
+      <modelElement href="Soft_Eng_23.uml#_Yt0-IPJSEe2V373N6MLoLQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_x7lAAfJSEe2V373N6MLoLQ" text="">
+      <visualProperties xmi:id="_x9d2YfJSEe2V373N6MLoLQ" position="-44.0,163.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_x7lAAvJSEe2V373N6MLoLQ" aggregationKind="NONE" name="">
+      <modelElement href="Soft_Eng_23.uml#_YtwssvJSEe2V373N6MLoLQ"/>
+      <visualProperties xmi:id="_x9d2YPJSEe2V373N6MLoLQ" position="35.0,41.0"/>
+      <visibility xmi:id="_x7mOJfJSEe2V373N6MLoLQ" label="+"/>
+      <cardinality xmi:id="_x7mOJPJSEe2V373N6MLoLQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_x7lAA_JSEe2V373N6MLoLQ" aggregationKind="NONE" name="subjectService" navigable="true">
+      <modelElement href="Soft_Eng_23.uml#_YrusYfJSEe2V373N6MLoLQ"/>
+      <visualProperties xmi:id="_x9edcPJSEe2V373N6MLoLQ" position="2.0,-83.125"/>
+      <visibility xmi:id="_x7mOJ_JSEe2V373N6MLoLQ" label="-"/>
+      <cardinality xmi:id="_x7mOJvJSEe2V373N6MLoLQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_CQTywPJTEe2V373N6MLoLQ" source="_vORsQPJSEe2V373N6MLoLQ">
+    <modelElement href="Soft_Eng_23.uml#_YtQ9cfJSEe2V373N6MLoLQ"/>
+    <nameVisual xmi:id="_CQYEMPJTEe2V373N6MLoLQ" text=""/>
+    <sourceRole xmi:id="_CQYrQPJTEe2V373N6MLoLQ" aggregationKind="NONE" name="professor" navigable="true">
+      <modelElement href="Soft_Eng_23.uml#_YsloAPJSEe2V373N6MLoLQ"/>
+      <stereotypes xmi:id="_CQZSUPJTEe2V373N6MLoLQ" name="JoinColumns">
+        <modelElement href="Soft_Eng_23.uml#_YsmPEPJSEe2V373N6MLoLQ"/>
+      </stereotypes>
+      <visibility xmi:id="_CQYrQ_JTEe2V373N6MLoLQ" label="+"/>
+      <cardinality xmi:id="_CQYrQvJTEe2V373N6MLoLQ" label="0..1" max="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_CQYrQfJTEe2V373N6MLoLQ" aggregationKind="NONE" name="">
+      <modelElement href="Soft_Eng_23.uml#_YtQWYfJSEe2V373N6MLoLQ"/>
+      <visibility xmi:id="_CQZSUvJTEe2V373N6MLoLQ" label="+"/>
+      <cardinality xmi:id="_CQZSUfJTEe2V373N6MLoLQ" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_wtZ8wvJSEe2V373N6MLoLQ" name="ProfessorServicelmpl" associationsOut="_wtZ8sPJSEe2V373N6MLoLQ _wtZ8ufJSEe2V373N6MLoLQ" generalizations="_wtXgcPJSEe2V373N6MLoLQ">
+    <modelElement href="Soft_Eng_23.uml#_YaKbQPJSEe2V373N6MLoLQ"/>
+    <visualProperties xmi:id="_wtZ8w_JSEe2V373N6MLoLQ" position="910.0,503.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_wtZ8xPJSEe2V373N6MLoLQ" name="LegacyStyledElement">
+      <modelElement href="Soft_Eng_23.uml#_YaLCUPJSEe2V373N6MLoLQ"/>
+    </stereotypes>
+    <stereotypes xmi:id="_wtZ8xfJSEe2V373N6MLoLQ" name="Annotations">
+      <modelElement href="Soft_Eng_23.uml#_YaOFoPJSEe2V373N6MLoLQ"/>
+    </stereotypes>
+    <visibility xmi:id="_wtZ8xvJSEe2V373N6MLoLQ" label="+"/>
+    <attributes xmi:id="_wtZ8x_JSEe2V373N6MLoLQ" name="professorRepository">
+      <modelElement href="Soft_Eng_23.uml#_Ys2twPJSEe2V373N6MLoLQ"/>
+      <visibility xmi:id="_wtZ8yPJSEe2V373N6MLoLQ" label="-"/>
+      <cardinality xmi:id="_wtZ8yfJSEe2V373N6MLoLQ" label="1" max="1" min="1"/>
+      <type xmi:id="_wtZ8yvJSEe2V373N6MLoLQ" name="ProfessorRepository">
+        <modelElement href="Soft_Eng_23.uml#_YZE2IPJSEe2V373N6MLoLQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_wtZ8y_JSEe2V373N6MLoLQ" name="subjectRepository">
+      <modelElement href="Soft_Eng_23.uml#_Ys3U0PJSEe2V373N6MLoLQ"/>
+      <visibility xmi:id="_wtZ8zPJSEe2V373N6MLoLQ" label="-"/>
+      <cardinality xmi:id="_wtZ8zfJSEe2V373N6MLoLQ" label="1" max="1" min="1"/>
+      <type xmi:id="_wtZ8zvJSEe2V373N6MLoLQ" name="SubjectRepository">
+        <modelElement href="Soft_Eng_23.uml#_YZHSYvJSEe2V373N6MLoLQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_wtZ8z_JSEe2V373N6MLoLQ" name="getAllProfessor">
+      <modelElement href="Soft_Eng_23.uml#_YaLpYPJSEe2V373N6MLoLQ"/>
+      <stereotypes xmi:id="_wtZ80PJSEe2V373N6MLoLQ" name="Annotations">
+        <modelElement href="Soft_Eng_23.uml#_YaM3gPJSEe2V373N6MLoLQ"/>
+      </stereotypes>
+      <visibility xmi:id="_wtZ80fJSEe2V373N6MLoLQ" label="+"/>
+      <cardinality xmi:id="_wtZ80vJSEe2V373N6MLoLQ" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_wtZ80_JSEe2V373N6MLoLQ">
+        <modelElement href="Soft_Eng_23.uml#_YaMQcPJSEe2V373N6MLoLQ"/>
+        <type xmi:id="_wtZ81PJSEe2V373N6MLoLQ" name="Professor">
+          <modelElement href="Soft_Eng_23.uml#_YZRDYPJSEe2V373N6MLoLQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_wtZ81fJSEe2V373N6MLoLQ" name="getAllSubjects">
+      <modelElement href="Soft_Eng_23.uml#_YaM3gvJSEe2V373N6MLoLQ"/>
+      <stereotypes xmi:id="_wtZ81vJSEe2V373N6MLoLQ" name="Annotations">
+        <modelElement href="Soft_Eng_23.uml#_YaNekvJSEe2V373N6MLoLQ"/>
+      </stereotypes>
+      <visibility xmi:id="_wtZ81_JSEe2V373N6MLoLQ" label="+"/>
+      <cardinality xmi:id="_wtZ82PJSEe2V373N6MLoLQ" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_wtZ82fJSEe2V373N6MLoLQ">
+        <modelElement href="Soft_Eng_23.uml#_YaNekPJSEe2V373N6MLoLQ"/>
+        <type xmi:id="_wtZ82vJSEe2V373N6MLoLQ" name="Subject">
+          <modelElement href="Soft_Eng_23.uml#_YZo20PJSEe2V373N6MLoLQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_wtZ82_JSEe2V373N6MLoLQ" name="ProfessorServicelmpl">
+      <modelElement href="Soft_Eng_23.uml#_YoPTgPJSEe2V373N6MLoLQ"/>
+      <keywords xmi:id="_wtZ83PJSEe2V373N6MLoLQ" keyword="create"/>
+      <stereotypes xmi:id="_wtZ83fJSEe2V373N6MLoLQ" name="StyledElement">
+        <modelElement href="Soft_Eng_23.uml#_YoPThvJSEe2V373N6MLoLQ"/>
+      </stereotypes>
+      <visibility xmi:id="_wtZ83vJSEe2V373N6MLoLQ" label="+"/>
+      <cardinality xmi:id="_wtZ83_JSEe2V373N6MLoLQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_wtZ84PJSEe2V373N6MLoLQ">
+        <modelElement href="Soft_Eng_23.uml#_YoPThfJSEe2V373N6MLoLQ"/>
+        <type xmi:id="_wtZ84fJSEe2V373N6MLoLQ" name="ProfessorServicelmpl">
+          <modelElement href="Soft_Eng_23.uml#_YaKbQPJSEe2V373N6MLoLQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_wtZ84vJSEe2V373N6MLoLQ" name="professorRepository">
+        <modelElement href="Soft_Eng_23.uml#_YoPTgfJSEe2V373N6MLoLQ"/>
+        <cardinality xmi:id="_wtZ84_JSEe2V373N6MLoLQ" label="1" max="1" min="1"/>
+        <type xmi:id="_wtZ85PJSEe2V373N6MLoLQ" name="ProfessorRepository">
+          <modelElement href="Soft_Eng_23.uml#_YZE2IPJSEe2V373N6MLoLQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_wtZ85fJSEe2V373N6MLoLQ" name="subjectRepository">
+        <modelElement href="Soft_Eng_23.uml#_YoPTgvJSEe2V373N6MLoLQ"/>
+        <cardinality xmi:id="_wtZ85vJSEe2V373N6MLoLQ" label="1" max="1" min="1"/>
+        <type xmi:id="_wtZ85_JSEe2V373N6MLoLQ" name="SubjectRepository">
+          <modelElement href="Soft_Eng_23.uml#_YZHSYvJSEe2V373N6MLoLQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_wtZ86PJSEe2V373N6MLoLQ" name="saveProfessor">
+      <modelElement href="Soft_Eng_23.uml#_YoP6kPJSEe2V373N6MLoLQ"/>
+      <stereotypes xmi:id="_wtZ86fJSEe2V373N6MLoLQ" name="Annotations">
+        <modelElement href="Soft_Eng_23.uml#_YoP6k_JSEe2V373N6MLoLQ"/>
+      </stereotypes>
+      <visibility xmi:id="_wtZ86vJSEe2V373N6MLoLQ" label="+"/>
+      <cardinality xmi:id="_wtZ86_JSEe2V373N6MLoLQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_wtZ87PJSEe2V373N6MLoLQ">
+        <modelElement href="Soft_Eng_23.uml#_YoP6kvJSEe2V373N6MLoLQ"/>
+        <type xmi:id="_wtZ87fJSEe2V373N6MLoLQ" name="Professor">
+          <modelElement href="Soft_Eng_23.uml#_YZRDYPJSEe2V373N6MLoLQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_wtZ87vJSEe2V373N6MLoLQ" name="professor">
+        <modelElement href="Soft_Eng_23.uml#_YoP6kfJSEe2V373N6MLoLQ"/>
+        <cardinality xmi:id="_wtZ87_JSEe2V373N6MLoLQ" label="1" max="1" min="1"/>
+        <type xmi:id="_wtZ88PJSEe2V373N6MLoLQ" name="Professor">
+          <modelElement href="Soft_Eng_23.uml#_YZRDYPJSEe2V373N6MLoLQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_wtZ88fJSEe2V373N6MLoLQ" name="saveSubject">
+      <modelElement href="Soft_Eng_23.uml#_YoP6lfJSEe2V373N6MLoLQ"/>
+      <stereotypes xmi:id="_wtZ88vJSEe2V373N6MLoLQ" name="Annotations">
+        <modelElement href="Soft_Eng_23.uml#_YoRIsPJSEe2V373N6MLoLQ"/>
+      </stereotypes>
+      <visibility xmi:id="_wtZ88_JSEe2V373N6MLoLQ" label="+"/>
+      <cardinality xmi:id="_wtZ89PJSEe2V373N6MLoLQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_wtZ89fJSEe2V373N6MLoLQ">
+        <modelElement href="Soft_Eng_23.uml#_YoQhofJSEe2V373N6MLoLQ"/>
+        <type xmi:id="_wtZ89vJSEe2V373N6MLoLQ" name="Subject">
+          <modelElement href="Soft_Eng_23.uml#_YZo20PJSEe2V373N6MLoLQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_wtZ89_JSEe2V373N6MLoLQ" name="subject">
+        <modelElement href="Soft_Eng_23.uml#_YoQhoPJSEe2V373N6MLoLQ"/>
+        <cardinality xmi:id="_wtZ8-PJSEe2V373N6MLoLQ" label="1" max="1" min="1"/>
+        <type xmi:id="_wtZ8-fJSEe2V373N6MLoLQ" name="Subject">
+          <modelElement href="Soft_Eng_23.uml#_YZo20PJSEe2V373N6MLoLQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_xbqw4PJSEe2V373N6MLoLQ" name="ProfessorRepository" associationsIn="_wtZ8sPJSEe2V373N6MLoLQ">
+    <modelElement href="Soft_Eng_23.uml#_YZE2IPJSEe2V373N6MLoLQ"/>
+    <visualProperties xmi:id="_xbqw4fJSEe2V373N6MLoLQ" position="919.0,244.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_xbqw4vJSEe2V373N6MLoLQ" name="LegacyStyledElement">
+      <modelElement href="Soft_Eng_23.uml#_YZFdMPJSEe2V373N6MLoLQ"/>
+    </stereotypes>
+    <stereotypes xmi:id="_xbqw4_JSEe2V373N6MLoLQ" name="Annotations">
+      <modelElement href="Soft_Eng_23.uml#_YZFdMfJSEe2V373N6MLoLQ"/>
+    </stereotypes>
+    <visibility xmi:id="_xbqw5PJSEe2V373N6MLoLQ" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_vORsQPJSEe2V373N6MLoLQ" name="Professor" associationsOut="_wVhBIPJSEe2V373N6MLoLQ _CQTywPJTEe2V373N6MLoLQ">
+    <modelElement href="Soft_Eng_23.uml#_YZRDYPJSEe2V373N6MLoLQ"/>
+    <visualProperties xmi:id="_vORsQfJSEe2V373N6MLoLQ" position="431.0,76.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_vORsQvJSEe2V373N6MLoLQ" name="Table">
+      <modelElement href="Soft_Eng_23.uml#_YZUtwPJSEe2V373N6MLoLQ"/>
+    </stereotypes>
+    <stereotypes xmi:id="_vORsQ_JSEe2V373N6MLoLQ" name="JPA1StyledElement">
+      <modelElement href="Soft_Eng_23.uml#_YZVU0PJSEe2V373N6MLoLQ"/>
+    </stereotypes>
+    <visibility xmi:id="_vORsRPJSEe2V373N6MLoLQ" label="+"/>
+    <attributes xmi:id="_vORsRfJSEe2V373N6MLoLQ" name="id">
+      <modelElement href="Soft_Eng_23.uml#_Yr1aEPJSEe2V373N6MLoLQ"/>
+      <stereotypes xmi:id="_vORsRvJSEe2V373N6MLoLQ" name="PrimaryKey">
+        <modelElement href="Soft_Eng_23.uml#_Yr1aEfJSEe2V373N6MLoLQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_vORsR_JSEe2V373N6MLoLQ" name="GeneratedValueMapping">
+        <modelElement href="Soft_Eng_23.uml#_Yr1aEvJSEe2V373N6MLoLQ"/>
+      </stereotypes>
+      <visibility xmi:id="_vORsSPJSEe2V373N6MLoLQ" label="+"/>
+      <cardinality xmi:id="_vORsSfJSEe2V373N6MLoLQ" label="1" max="1" min="1"/>
+      <type xmi:id="_vORsSvJSEe2V373N6MLoLQ" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_vORsS_JSEe2V373N6MLoLQ" name="fullname">
+      <modelElement href="Soft_Eng_23.uml#_Yr2BIPJSEe2V373N6MLoLQ"/>
+      <stereotypes xmi:id="_vORsTPJSEe2V373N6MLoLQ" name="Column">
+        <modelElement href="Soft_Eng_23.uml#_Yr6SkPJSEe2V373N6MLoLQ"/>
+      </stereotypes>
+      <visibility xmi:id="_vORsTfJSEe2V373N6MLoLQ" label="+"/>
+      <cardinality xmi:id="_vORsTvJSEe2V373N6MLoLQ" label="1" max="1" min="1"/>
+      <type xmi:id="_vORsT_JSEe2V373N6MLoLQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_vORsUPJSEe2V373N6MLoLQ" name="specialty">
+      <modelElement href="Soft_Eng_23.uml#_Yr65oPJSEe2V373N6MLoLQ"/>
+      <stereotypes xmi:id="_vORsUfJSEe2V373N6MLoLQ" name="Column">
+        <modelElement href="Soft_Eng_23.uml#_YsAZMPJSEe2V373N6MLoLQ"/>
+      </stereotypes>
+      <visibility xmi:id="_vORsUvJSEe2V373N6MLoLQ" label="+"/>
+      <cardinality xmi:id="_vORsU_JSEe2V373N6MLoLQ" label="1" max="1" min="1"/>
+      <type xmi:id="_vORsVPJSEe2V373N6MLoLQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_vORsVfJSEe2V373N6MLoLQ" name="Professor">
+      <modelElement href="Soft_Eng_23.uml#_YZWi8PJSEe2V373N6MLoLQ"/>
+      <keywords xmi:id="_vORsVvJSEe2V373N6MLoLQ" keyword="create"/>
+      <stereotypes xmi:id="_vORsV_JSEe2V373N6MLoLQ" name="LegacyStyledElement">
+        <modelElement href="Soft_Eng_23.uml#_YZWi8_JSEe2V373N6MLoLQ"/>
+      </stereotypes>
+      <visibility xmi:id="_vORsWPJSEe2V373N6MLoLQ" label="+"/>
+      <cardinality xmi:id="_vORsWfJSEe2V373N6MLoLQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_vORsWvJSEe2V373N6MLoLQ">
+        <modelElement href="Soft_Eng_23.uml#_YZWi9PJSEe2V373N6MLoLQ"/>
+        <type xmi:id="_vORsW_JSEe2V373N6MLoLQ" name="Professor">
+          <modelElement href="Soft_Eng_23.uml#_YZRDYPJSEe2V373N6MLoLQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_vORsXPJSEe2V373N6MLoLQ" name="Professor">
+      <modelElement href="Soft_Eng_23.uml#_YZXKAPJSEe2V373N6MLoLQ"/>
+      <keywords xmi:id="_vORsXfJSEe2V373N6MLoLQ" keyword="create"/>
+      <stereotypes xmi:id="_vORsXvJSEe2V373N6MLoLQ" name="StyledElement">
+        <modelElement href="Soft_Eng_23.uml#_YZXxEPJSEe2V373N6MLoLQ"/>
+      </stereotypes>
+      <visibility xmi:id="_vORsX_JSEe2V373N6MLoLQ" label="+"/>
+      <cardinality xmi:id="_vORsYPJSEe2V373N6MLoLQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_vORsYfJSEe2V373N6MLoLQ">
+        <modelElement href="Soft_Eng_23.uml#_YZXKBPJSEe2V373N6MLoLQ"/>
+        <type xmi:id="_vORsYvJSEe2V373N6MLoLQ" name="Professor">
+          <modelElement href="Soft_Eng_23.uml#_YZRDYPJSEe2V373N6MLoLQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_vORsY_JSEe2V373N6MLoLQ" name="id">
+        <modelElement href="Soft_Eng_23.uml#_YZXKAfJSEe2V373N6MLoLQ"/>
+        <cardinality xmi:id="_vORsZPJSEe2V373N6MLoLQ" label="1" max="1" min="1"/>
+        <type xmi:id="_vORsZfJSEe2V373N6MLoLQ" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_vORsZvJSEe2V373N6MLoLQ" name="Professor">
+      <modelElement href="Soft_Eng_23.uml#_YZXxEfJSEe2V373N6MLoLQ"/>
+      <keywords xmi:id="_vORsZ_JSEe2V373N6MLoLQ" keyword="create"/>
+      <stereotypes xmi:id="_vORsaPJSEe2V373N6MLoLQ" name="StyledElement">
+        <modelElement href="Soft_Eng_23.uml#_YZYYJPJSEe2V373N6MLoLQ"/>
+      </stereotypes>
+      <visibility xmi:id="_vORsafJSEe2V373N6MLoLQ" label="+"/>
+      <cardinality xmi:id="_vORsavJSEe2V373N6MLoLQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_vORsa_JSEe2V373N6MLoLQ">
+        <modelElement href="Soft_Eng_23.uml#_YZYYI_JSEe2V373N6MLoLQ"/>
+        <type xmi:id="_vORsbPJSEe2V373N6MLoLQ" name="Professor">
+          <modelElement href="Soft_Eng_23.uml#_YZRDYPJSEe2V373N6MLoLQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_vORsbfJSEe2V373N6MLoLQ" name="fullname">
+        <modelElement href="Soft_Eng_23.uml#_YZXxEvJSEe2V373N6MLoLQ"/>
+        <cardinality xmi:id="_vORsbvJSEe2V373N6MLoLQ" label="1" max="1" min="1"/>
+        <type xmi:id="_vORsb_JSEe2V373N6MLoLQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_vORscPJSEe2V373N6MLoLQ" name="specialty">
+        <modelElement href="Soft_Eng_23.uml#_YZYYIPJSEe2V373N6MLoLQ"/>
+        <cardinality xmi:id="_vORscfJSEe2V373N6MLoLQ" label="1" max="1" min="1"/>
+        <type xmi:id="_vORscvJSEe2V373N6MLoLQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_x7m1MPJSEe2V373N6MLoLQ" name="ProfessorController" associationsOut="_x7jK0PJSEe2V373N6MLoLQ _x7jx4PJSEe2V373N6MLoLQ">
+    <modelElement href="Soft_Eng_23.uml#_YYu34PJSEe2V373N6MLoLQ"/>
+    <visualProperties xmi:id="_x7m1MfJSEe2V373N6MLoLQ" position="-286.0,275.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_x7m1MvJSEe2V373N6MLoLQ" name="LegacyStyledElement">
+      <modelElement href="Soft_Eng_23.uml#_YYve8PJSEe2V373N6MLoLQ"/>
+    </stereotypes>
+    <stereotypes xmi:id="_x7m1M_JSEe2V373N6MLoLQ" name="Annotations">
+      <modelElement href="Soft_Eng_23.uml#_YYxUIPJSEe2V373N6MLoLQ"/>
+    </stereotypes>
+    <visibility xmi:id="_x7m1NPJSEe2V373N6MLoLQ" label="+"/>
+    <attributes xmi:id="_x7m1NfJSEe2V373N6MLoLQ" name="professorService">
+      <modelElement href="Soft_Eng_23.uml#_YrusYPJSEe2V373N6MLoLQ"/>
+      <visibility xmi:id="_x7m1NvJSEe2V373N6MLoLQ" label="-"/>
+      <cardinality xmi:id="_x7m1N_JSEe2V373N6MLoLQ" label="1" max="1" min="1"/>
+      <type xmi:id="_x7m1OPJSEe2V373N6MLoLQ" name="ProfessorService">
+        <modelElement href="Soft_Eng_23.uml#_YaImEPJSEe2V373N6MLoLQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_x7m1OfJSEe2V373N6MLoLQ" name="subjectService">
+      <modelElement href="Soft_Eng_23.uml#_YrusYfJSEe2V373N6MLoLQ"/>
+      <visibility xmi:id="_x7m1OvJSEe2V373N6MLoLQ" label="-"/>
+      <cardinality xmi:id="_x7m1O_JSEe2V373N6MLoLQ" label="1" max="1" min="1"/>
+      <type xmi:id="_x7m1PPJSEe2V373N6MLoLQ" name="ProfessorService">
+        <modelElement href="Soft_Eng_23.uml#_YaImEPJSEe2V373N6MLoLQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_x7ncQPJSEe2V373N6MLoLQ" name="ProfessorController">
+      <modelElement href="Soft_Eng_23.uml#_YmUA4fJSEe2V373N6MLoLQ"/>
+      <keywords xmi:id="_x7ncQfJSEe2V373N6MLoLQ" keyword="create"/>
+      <stereotypes xmi:id="_x7ncQvJSEe2V373N6MLoLQ" name="StyledElement">
+        <modelElement href="Soft_Eng_23.uml#_YmUn9PJSEe2V373N6MLoLQ"/>
+      </stereotypes>
+      <visibility xmi:id="_x7ncQ_JSEe2V373N6MLoLQ" label="+"/>
+      <cardinality xmi:id="_x7ncRPJSEe2V373N6MLoLQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_x7ncRfJSEe2V373N6MLoLQ">
+        <modelElement href="Soft_Eng_23.uml#_YmUn8_JSEe2V373N6MLoLQ"/>
+        <type xmi:id="_x7ncRvJSEe2V373N6MLoLQ" name="ProfessorController">
+          <modelElement href="Soft_Eng_23.uml#_YYu34PJSEe2V373N6MLoLQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_x7ncR_JSEe2V373N6MLoLQ" name="professorService">
+        <modelElement href="Soft_Eng_23.uml#_YmUA4vJSEe2V373N6MLoLQ"/>
+        <cardinality xmi:id="_x7ncSPJSEe2V373N6MLoLQ" label="1" max="1" min="1"/>
+        <type xmi:id="_x7ncSfJSEe2V373N6MLoLQ" name="ProfessorService">
+          <modelElement href="Soft_Eng_23.uml#_YaImEPJSEe2V373N6MLoLQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_x7ncSvJSEe2V373N6MLoLQ" name="subjectService">
+        <modelElement href="Soft_Eng_23.uml#_YmUn8PJSEe2V373N6MLoLQ"/>
+        <cardinality xmi:id="_x7ncS_JSEe2V373N6MLoLQ" label="1" max="1" min="1"/>
+        <type xmi:id="_x7ncTPJSEe2V373N6MLoLQ" name="ProfessorService">
+          <modelElement href="Soft_Eng_23.uml#_YaImEPJSEe2V373N6MLoLQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_x7ncTfJSEe2V373N6MLoLQ" name="saveSubject">
+      <modelElement href="Soft_Eng_23.uml#_YmVPAPJSEe2V373N6MLoLQ"/>
+      <stereotypes xmi:id="_x7ncTvJSEe2V373N6MLoLQ" name="Annotations">
+        <modelElement href="Soft_Eng_23.uml#_YmWdIPJSEe2V373N6MLoLQ"/>
+      </stereotypes>
+      <visibility xmi:id="_x7ncT_JSEe2V373N6MLoLQ" label="+"/>
+      <cardinality xmi:id="_x7ncUPJSEe2V373N6MLoLQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_x7ncUfJSEe2V373N6MLoLQ">
+        <modelElement href="Soft_Eng_23.uml#_YmV2EPJSEe2V373N6MLoLQ"/>
+        <type xmi:id="_x7ncUvJSEe2V373N6MLoLQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_x7ncU_JSEe2V373N6MLoLQ" name="subject">
+        <modelElement href="Soft_Eng_23.uml#_YmVPAfJSEe2V373N6MLoLQ"/>
+        <cardinality xmi:id="_x7ncVPJSEe2V373N6MLoLQ" label="1" max="1" min="1"/>
+        <type xmi:id="_x7ncVfJSEe2V373N6MLoLQ" name="Subject">
+          <modelElement href="Soft_Eng_23.uml#_YZo20PJSEe2V373N6MLoLQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_x7ncVvJSEe2V373N6MLoLQ" name="saveProfessor">
+      <modelElement href="Soft_Eng_23.uml#_YmXEMPJSEe2V373N6MLoLQ"/>
+      <stereotypes xmi:id="_x7ncV_JSEe2V373N6MLoLQ" name="Annotations">
+        <modelElement href="Soft_Eng_23.uml#_YmYSUvJSEe2V373N6MLoLQ"/>
+      </stereotypes>
+      <visibility xmi:id="_x7ncWPJSEe2V373N6MLoLQ" label="+"/>
+      <cardinality xmi:id="_x7ncWfJSEe2V373N6MLoLQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_x7ncWvJSEe2V373N6MLoLQ">
+        <modelElement href="Soft_Eng_23.uml#_YmXrQPJSEe2V373N6MLoLQ"/>
+        <type xmi:id="_x7ncW_JSEe2V373N6MLoLQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_x7ncXPJSEe2V373N6MLoLQ" name="professor">
+        <modelElement href="Soft_Eng_23.uml#_YmXEMfJSEe2V373N6MLoLQ"/>
+        <cardinality xmi:id="_x7ncXfJSEe2V373N6MLoLQ" label="1" max="1" min="1"/>
+        <type xmi:id="_x7ncXvJSEe2V373N6MLoLQ" name="Professor">
+          <modelElement href="Soft_Eng_23.uml#_YZRDYPJSEe2V373N6MLoLQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_x7ncX_JSEe2V373N6MLoLQ" name="listsubjects">
+      <modelElement href="Soft_Eng_23.uml#_YqjnsPJSEe2V373N6MLoLQ"/>
+      <stereotypes xmi:id="_x7ncYPJSEe2V373N6MLoLQ" name="Annotations">
+        <modelElement href="Soft_Eng_23.uml#_YqkOwfJSEe2V373N6MLoLQ"/>
+      </stereotypes>
+      <visibility xmi:id="_x7ncYfJSEe2V373N6MLoLQ" label="+"/>
+      <cardinality xmi:id="_x7ncYvJSEe2V373N6MLoLQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_x7ncY_JSEe2V373N6MLoLQ">
+        <modelElement href="Soft_Eng_23.uml#_YqkOwPJSEe2V373N6MLoLQ"/>
+        <type xmi:id="_x7ncZPJSEe2V373N6MLoLQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_x7ncZfJSEe2V373N6MLoLQ" name="model">
+        <modelElement href="Soft_Eng_23.uml#_YqjnsfJSEe2V373N6MLoLQ"/>
+        <cardinality xmi:id="_x7ncZvJSEe2V373N6MLoLQ" label="1" max="1" min="1"/>
+        <type xmi:id="_x7ncZ_JSEe2V373N6MLoLQ" name="Model">
+          <modelElement href="Soft_Eng_23.uml#_Yl6YQPJSEe2V373N6MLoLQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_x7ncaPJSEe2V373N6MLoLQ" name="createSubjectsForm">
+      <modelElement href="Soft_Eng_23.uml#_Yqk10PJSEe2V373N6MLoLQ"/>
+      <stereotypes xmi:id="_x7ncafJSEe2V373N6MLoLQ" name="Annotations">
+        <modelElement href="Soft_Eng_23.uml#_Yqk10_JSEe2V373N6MLoLQ"/>
+      </stereotypes>
+      <visibility xmi:id="_x7ncavJSEe2V373N6MLoLQ" label="+"/>
+      <cardinality xmi:id="_x7nca_JSEe2V373N6MLoLQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_x7ncbPJSEe2V373N6MLoLQ">
+        <modelElement href="Soft_Eng_23.uml#_Yqk10vJSEe2V373N6MLoLQ"/>
+        <type xmi:id="_x7ncbfJSEe2V373N6MLoLQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_x7ncbvJSEe2V373N6MLoLQ" name="model">
+        <modelElement href="Soft_Eng_23.uml#_Yqk10fJSEe2V373N6MLoLQ"/>
+        <cardinality xmi:id="_x7ncb_JSEe2V373N6MLoLQ" label="1" max="1" min="1"/>
+        <type xmi:id="_x7nccPJSEe2V373N6MLoLQ" name="Model">
+          <modelElement href="Soft_Eng_23.uml#_Yl6YQPJSEe2V373N6MLoLQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_x7nccfJSEe2V373N6MLoLQ" name="getAll">
+      <modelElement href="Soft_Eng_23.uml#_Yqlc4PJSEe2V373N6MLoLQ"/>
+      <stereotypes xmi:id="_x7nccvJSEe2V373N6MLoLQ" name="Annotations">
+        <modelElement href="Soft_Eng_23.uml#_YqmD8PJSEe2V373N6MLoLQ"/>
+      </stereotypes>
+      <visibility xmi:id="_x7ncc_JSEe2V373N6MLoLQ" label="+"/>
+      <cardinality xmi:id="_x7ncdPJSEe2V373N6MLoLQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_x7ncdfJSEe2V373N6MLoLQ">
+        <modelElement href="Soft_Eng_23.uml#_Yqlc4vJSEe2V373N6MLoLQ"/>
+        <type xmi:id="_x7ncdvJSEe2V373N6MLoLQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_x7ncd_JSEe2V373N6MLoLQ" name="model">
+        <modelElement href="Soft_Eng_23.uml#_Yqlc4fJSEe2V373N6MLoLQ"/>
+        <cardinality xmi:id="_x7ncePJSEe2V373N6MLoLQ" label="1" max="1" min="1"/>
+        <type xmi:id="_x7ncefJSEe2V373N6MLoLQ" name="Model">
+          <modelElement href="Soft_Eng_23.uml#_Yl6YQPJSEe2V373N6MLoLQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_x7ncevJSEe2V373N6MLoLQ" name="listProfessor">
+      <modelElement href="Soft_Eng_23.uml#_YqmD8_JSEe2V373N6MLoLQ"/>
+      <stereotypes xmi:id="_x7nce_JSEe2V373N6MLoLQ" name="Annotations">
+        <modelElement href="Soft_Eng_23.uml#_YqmrAfJSEe2V373N6MLoLQ"/>
+      </stereotypes>
+      <visibility xmi:id="_x7ncfPJSEe2V373N6MLoLQ" label="+"/>
+      <cardinality xmi:id="_x7ncffJSEe2V373N6MLoLQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_x7ncfvJSEe2V373N6MLoLQ">
+        <modelElement href="Soft_Eng_23.uml#_YqmrAPJSEe2V373N6MLoLQ"/>
+        <type xmi:id="_x7ncf_JSEe2V373N6MLoLQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_x7ncgPJSEe2V373N6MLoLQ" name="model">
+        <modelElement href="Soft_Eng_23.uml#_YqmD9PJSEe2V373N6MLoLQ"/>
+        <cardinality xmi:id="_x7ncgfJSEe2V373N6MLoLQ" label="1" max="1" min="1"/>
+        <type xmi:id="_x7ncgvJSEe2V373N6MLoLQ" name="Model">
+          <modelElement href="Soft_Eng_23.uml#_Yl6YQPJSEe2V373N6MLoLQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_x7ncg_JSEe2V373N6MLoLQ" name="createProfessorForm">
+      <modelElement href="Soft_Eng_23.uml#_YqmrBPJSEe2V373N6MLoLQ"/>
+      <stereotypes xmi:id="_x7nchPJSEe2V373N6MLoLQ" name="Annotations">
+        <modelElement href="Soft_Eng_23.uml#_YqnSEfJSEe2V373N6MLoLQ"/>
+      </stereotypes>
+      <visibility xmi:id="_x7nchfJSEe2V373N6MLoLQ" label="+"/>
+      <cardinality xmi:id="_x7nchvJSEe2V373N6MLoLQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_x7nch_JSEe2V373N6MLoLQ">
+        <modelElement href="Soft_Eng_23.uml#_YqnSEPJSEe2V373N6MLoLQ"/>
+        <type xmi:id="_x7nciPJSEe2V373N6MLoLQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_x7ncifJSEe2V373N6MLoLQ" name="model">
+        <modelElement href="Soft_Eng_23.uml#_YqmrBfJSEe2V373N6MLoLQ"/>
+        <cardinality xmi:id="_x7ncivJSEe2V373N6MLoLQ" label="1" max="1" min="1"/>
+        <type xmi:id="_x7nci_JSEe2V373N6MLoLQ" name="Model">
+          <modelElement href="Soft_Eng_23.uml#_Yl6YQPJSEe2V373N6MLoLQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_wVi2WPJSEe2V373N6MLoLQ" name="ProfessorService" associationsIn="_wVhBIPJSEe2V373N6MLoLQ _wVi2UPJSEe2V373N6MLoLQ _x7jK0PJSEe2V373N6MLoLQ _x7jx4PJSEe2V373N6MLoLQ" subclassedBy="_wtXgcPJSEe2V373N6MLoLQ">
+    <modelElement href="Soft_Eng_23.uml#_YaImEPJSEe2V373N6MLoLQ"/>
+    <visualProperties xmi:id="_wVi2WfJSEe2V373N6MLoLQ" position="401.0,721.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_wVi2WvJSEe2V373N6MLoLQ" label="+"/>
+    <attributes xmi:id="_wVi2W_JSEe2V373N6MLoLQ" name="allProfessor">
+      <modelElement href="Soft_Eng_23.uml#_YaJNIPJSEe2V373N6MLoLQ"/>
+      <visibility xmi:id="_wVi2XPJSEe2V373N6MLoLQ" label="~"/>
+      <cardinality xmi:id="_wVi2XfJSEe2V373N6MLoLQ" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_wVi2XvJSEe2V373N6MLoLQ" name="Professor">
+        <modelElement href="Soft_Eng_23.uml#_YZRDYPJSEe2V373N6MLoLQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_wVi2X_JSEe2V373N6MLoLQ" name="allSubjects">
+      <modelElement href="Soft_Eng_23.uml#_YaJNIfJSEe2V373N6MLoLQ"/>
+      <visibility xmi:id="_wVi2YPJSEe2V373N6MLoLQ" label="~"/>
+      <cardinality xmi:id="_wVi2YfJSEe2V373N6MLoLQ" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_wVi2YvJSEe2V373N6MLoLQ" name="Subject">
+        <modelElement href="Soft_Eng_23.uml#_YZo20PJSEe2V373N6MLoLQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_wVi2Y_JSEe2V373N6MLoLQ" name="saveProfessor">
+      <modelElement href="Soft_Eng_23.uml#_YoKbAPJSEe2V373N6MLoLQ"/>
+      <visibility xmi:id="_wVi2ZPJSEe2V373N6MLoLQ" label="+"/>
+      <cardinality xmi:id="_wVi2ZfJSEe2V373N6MLoLQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_wVi2ZvJSEe2V373N6MLoLQ">
+        <modelElement href="Soft_Eng_23.uml#_YoLCEfJSEe2V373N6MLoLQ"/>
+        <type xmi:id="_wVi2Z_JSEe2V373N6MLoLQ" name="Professor">
+          <modelElement href="Soft_Eng_23.uml#_YZRDYPJSEe2V373N6MLoLQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_wVi2aPJSEe2V373N6MLoLQ" name="professor">
+        <modelElement href="Soft_Eng_23.uml#_YoLCEPJSEe2V373N6MLoLQ"/>
+        <cardinality xmi:id="_wVi2afJSEe2V373N6MLoLQ" label="1" max="1" min="1"/>
+        <type xmi:id="_wVi2avJSEe2V373N6MLoLQ" name="Professor">
+          <modelElement href="Soft_Eng_23.uml#_YZRDYPJSEe2V373N6MLoLQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_wVi2a_JSEe2V373N6MLoLQ" name="saveSubject">
+      <modelElement href="Soft_Eng_23.uml#_YoLCEvJSEe2V373N6MLoLQ"/>
+      <visibility xmi:id="_wVi2bPJSEe2V373N6MLoLQ" label="+"/>
+      <cardinality xmi:id="_wVi2bfJSEe2V373N6MLoLQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_wVi2bvJSEe2V373N6MLoLQ">
+        <modelElement href="Soft_Eng_23.uml#_YoLCFPJSEe2V373N6MLoLQ"/>
+        <type xmi:id="_wVi2b_JSEe2V373N6MLoLQ" name="Subject">
+          <modelElement href="Soft_Eng_23.uml#_YZo20PJSEe2V373N6MLoLQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_wVi2cPJSEe2V373N6MLoLQ" name="subject">
+        <modelElement href="Soft_Eng_23.uml#_YoLCE_JSEe2V373N6MLoLQ"/>
+        <cardinality xmi:id="_wVi2cfJSEe2V373N6MLoLQ" label="1" max="1" min="1"/>
+        <type xmi:id="_wVi2cvJSEe2V373N6MLoLQ" name="Subject">
+          <modelElement href="Soft_Eng_23.uml#_YZo20PJSEe2V373N6MLoLQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Student Management System</title>
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+	integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+	crossorigin="anonymous">
+</head>
+<body>
+
+<br>
+<br>
+	<div class = "container">
+		<div class = "row">
+			<div class ="col-lg-6 col-md-6 col-sm-6 container justify-content-center card">
+				<h1 class = "text-center"> Create New Student </h1>
+				<div class = "card-body">
+					<form th:action="@{/students}" th:object = "${student}" method="POST">
+						<div class ="form-group">
+							<label> Student full Name </label>
+							<input
+							type = "text"
+							name = "fullname"
+							th:field = "*{fullname}"
+							class = "form-control"
+							placeholder="Enter Student Full Name" 
+							/>
+						</div>
+						
+						<div class ="form-group">
+							<label> Student's year of studies </label>
+							<input
+							type = "text"
+							name = "yearofstudies"
+							th:field = "*{yearofstudies}"
+							class = "form-control"
+							placeholder="Enter Student year of studies" 
+							/>
+						</div>
+						
+						<div class ="form-group">
+							<label> Student's current average grade </label>
+							<input
+							type = "text"
+							name = "currentaveragegrade"
+							th:field = "*{currentaveragegrade}"
+							class = "form-control"
+							placeholder="Enter Student current average grade" 
+							/>
+						</div>
+						
+						<div class ="form-group">
+							<label> Student's remaining courses </label>
+							<input
+							type = "text"
+							name = "remainingcourses"
+							th:field = "*{remainingcourses}"
+							class = "form-control"
+							placeholder="Enter Student remaining courses" 
+							/>
+						</div>
+						
+						<div class = "box-footer">
+							<button type="submit" class = "btn btn-primary">
+								Submit
+							</button>
+						</div>
+					</form>
+				
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
